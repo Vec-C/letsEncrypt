@@ -11,4 +11,7 @@ services:
     volumes:
       - ./src:/src
     ports:
-      - "5005:80"
+      - target: 80
+        published: 5000
+        protocol: tcp
+        mode: host

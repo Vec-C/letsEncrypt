@@ -28,4 +28,4 @@ chmod 777 live
 cd live
 cd $parameterA
 
-aws acm import-certificate --certificate-arn $parameterB --certificate file://cert.pem --private-key file://privkey.pem --certificate-chain file://fullchain.pem
+aws acm import-certificate --certificate-arn $parameterB --certificate fileb://cert.pem --private-key fileb://privkey.pem --certificate-chain fileb://fullchain.pem

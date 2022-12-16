@@ -28,7 +28,7 @@ echo $parameterA > logCerts.txt
 
 # Begin script in case all parameters are correct
 
-certbot certonly --key-type rsa --rsa-key-size 2048 --non-interactive --manual --preferred-challenges http --manual-auth-hook "sh authenticator.sh" --email deliveryti@alsea.com.mx --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d $parameterA
-sh importCerts.sh -a $parameterB
+certbot certonly --key-type rsa --rsa-key-size 2048 --non-interactive --manual --preferred-challenges http --manual-auth-hook "sh /core-prod/authenticator.sh" --email deliveryti@alsea.com.mx --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d $parameterA
+sh /core-prod/importCerts.sh -a $parameterB
 
 

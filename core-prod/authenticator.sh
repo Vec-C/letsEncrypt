@@ -5,7 +5,7 @@
 #  EXAMPLE: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
 #  export AWS_PROFILE=user1
 
-#  BEFORE THE COMANDS BELOW
+#  BEFORE THE COMMANDS BELOW
 
 aws configure set default.region us-east-1
 aws sts get-caller-identity

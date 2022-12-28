@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb52e5f-6934-494a-a0d2-90364c6aaf35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lambda_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certBOOT.service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certBOOT.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-prod/authenticator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/certificateManager/authenticator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-prod/certs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/certificateManager/certs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-prod/importCerts.sh" beforeDir="false" afterPath="$PROJECT_DIR$/certificateManager/importCerts.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambda_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/letsEncrypt/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/letsEncrypt/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/letsEncrypt/entrypoints/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/letsEncrypt/entrypoints/flask_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/letsEncrypt/service_layer/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/letsEncrypt/service_layer/services.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,5 +89,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

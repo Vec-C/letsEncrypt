@@ -3,7 +3,7 @@ flask
 psycopg2-binary
 
 # tests
-pytest
-pytest-icdiff
+# pytest
+# pytest-icdiff
 mypy
 requests

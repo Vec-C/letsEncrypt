@@ -17,4 +17,4 @@ RUN ./aws/install
 
 WORKDIR /src
 ENV FLASK_APP=letsEncrypt/entrypoints/flask_app.py FLASK_DEBUG=1 PYTHONBUFFERED=1
-ENTRYPOINT ["/bin/bash","flask run --host=0.0.0.0 --port=80"]
+CMD flask run --host=0.0.0.0 --port=80

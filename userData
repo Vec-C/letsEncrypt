@@ -7,13 +7,13 @@ sudo id ec2-user
 sudo newgrp docker
 sudo yum -y install python3-pip
 sudo pip3 install docker-compose
-sudo systemctl enable docker.service
-sudo systemctl start docker.service
 sudo yum -y install git
 sudo git clone https://github.com/Vec-C/letsEncrypt.git
-sudo cp /home/ec2-user/letsEncrypt/certBOOT.sh /usr/bin/certBOOT.sh
-sudo cp /home/ec2-user/letsEncrypt/certBOOT.service /usr/lib/systemd/system/certBOOT.service
+sudo cp /letsEncrypt/certBOOT.sh /usr/bin/certBOOT.sh
+sudo cp /letsEncrypt/certBOOT.service /usr/lib/systemd/system/certBOOT.service
 sudo chmod +x /usr/bin/certBOOT.sh
 sudo systemctl daemon-reload
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
 sudo systemctl enable certBOOT.service
 sudo systemctl start certBOOT.service

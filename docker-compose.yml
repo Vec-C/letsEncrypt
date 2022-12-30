@@ -13,6 +13,7 @@ services:
       - EMAIL=<<EMAIL>>
     volumes:
       - ./src:/src
+      - $HOME/.aws/:/root/.aws
     ports:
       - target: 80
         published: 5000

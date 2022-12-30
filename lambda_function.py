@@ -60,9 +60,11 @@ def lambda_handler(event, context):
         return speak(500, json.dumps(e))
 
     for status in r['InstanceStatuses']:
-        # IF STATUS IS NOT RUNNING(16):
+        # IF CERTBOT STATUS IS NOT RUNNING(16):
         if status['InstanceState']['Code'] != 16:
-            saveEvent(event, bucket_name, file_key, s3)
+            s = saveEvent(event, bucket_name, file_key, s3)
+            if s is not None:
+                return s
             return startInstance(instance, ec2)
 
         # CERTBOT SERVICE IS READY:

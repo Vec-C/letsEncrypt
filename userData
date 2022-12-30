@@ -17,3 +17,4 @@ sudo systemctl enable docker.service
 sudo systemctl start docker.service
 sudo systemctl enable certBOOT.service
 sudo systemctl start certBOOT.service
+# sudo aws configure --profile <<PROFILE>>

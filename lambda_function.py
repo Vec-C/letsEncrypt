@@ -50,7 +50,7 @@ def lambda_handler(event, context):
     port = os.environ['PORT']
     ec2 = boto3.client('ec2')
     s3 = boto3.client('s3')
-    bucket_name = 'shared-artifacts-sessionm'
+    bucket_name = '<<BUCKET_NAME>>'
     file_key = 'certificates/last.txt'
 
     try:
@@ -74,7 +74,6 @@ def lambda_handler(event, context):
             headers = {'Content-type': 'application/json'}
             renew = requests.post('http://' + ip + ':' + port +'/reimport',
                                      data=json.dumps(json_content), headers=headers)
-
             time.sleep(15)
             try:
                 stopInstance = ec2.stop_instances(InstanceIds=[instance], DryRun=False)

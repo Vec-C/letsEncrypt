@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cb52e5f-6934-494a-a0d2-90364c6aaf35" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certBOOT.sh" beforeDir="false" afterPath="$PROJECT_DIR$/certBOOT.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lambda_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambda_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userData" beforeDir="false" afterPath="$PROJECT_DIR$/userData" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

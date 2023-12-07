@@ -22,7 +22,7 @@ Go to the Lambda function and add the API Gateway and the alarm as triggers.
 Add the following environment variables to the lambda:
 
 INSTANCE: ***i-xxxxx*** (recently launched instance ID).
-PORT:     5000
+PORT:     5000.
 
 ONCE THE INSTANCE IS RUNNING...
 

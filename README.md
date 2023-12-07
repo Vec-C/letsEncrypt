@@ -4,24 +4,24 @@
 
 <h3>Requirements:</h3>
 
-Create a new public bucket in S3.
+> Create a new public bucket in S3.
 
-Create a new Lambda function with the code inside de lambda_function.py file.
+> Create a new Lambda function with the code inside de lambda_function.py file.
 
-Inside the function code replace ***BUCKET*** with your bucket name.
+> Inside the function code replace ***BUCKET*** with your bucket name.
 
-Create a new GET method "/reimport" inside a new API Gateway and link the lambda function as a proxy integration backend.
+> Create a new GET method "/reimport" inside a new API Gateway and link the lambda function as a proxy integration backend.
 
-Create a new Cloudwatch event alarm that triggers when an ACM certificate is close to expiring.
+> Create a new Cloudwatch event alarm that triggers when an ACM certificate is close to expiring.
 
-Launch a new EC2 Linux instance and add the content of the userData file to the userData property of the instance.
+> Launch a new EC2 Linux instance and add the content of the userData file to the userData property of the instance.
 
-Go to the Lambda function and add the API Gateway and the alarm as triggers.
+> Go to the Lambda function and add the API Gateway and the alarm as triggers.
 
 Add the following environment variables to the lambda:
 
-INSTANCE: ***i-xxxxx*** (recently launched instance ID).\
-PORT:     5000
+> INSTANCE: ***i-xxxxx*** (recently launched instance ID).\
+> PORT:     5000
 
 <h3>ONCE THE INSTANCE IS RUNNING...</h3>
 

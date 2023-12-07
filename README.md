@@ -43,6 +43,6 @@ Edit the docker-compose.yml file:
 
 > ***EMAIL*** for the email that you want to be linked to the certificate.
 
-<h4>Stop your instance and don't be bothered about this again</h4>
+<h4>Stop your instance and don't be bothered about this again.</h4>
 
 

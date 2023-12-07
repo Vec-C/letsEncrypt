@@ -1,9 +1,9 @@
 # letsEncrypt
-AWS | CERTBOT
+<h1>AWS | CERTBOT</h1>h1>
 
-Automatic Let's encrypt ACM certificate autosign.
+<h2>Automatic Let's encrypt ACM certificate autosign.</h2>
 
-Requirements:
+<h3>Requirements:</h3>
 
 Create a new public bucket in S3.
 
@@ -24,7 +24,7 @@ Add the following environment variables to the lambda:
 INSTANCE: ***i-xxxxx*** (recently launched instance ID).\
 PORT:     5000
 
-ONCE THE INSTANCE IS RUNNING...
+</h3>ONCE THE INSTANCE IS RUNNING...</h3>
 
 Create a new ssh connection to the instance.
 
@@ -36,7 +36,7 @@ Go to /home/ec2-user/letsEncrypt:
 
   cd /home/ec2-user/letsEncrypt.
 
-Edit the docker-compose.yml file:
+</h4>Edit the docker-compose.yml file:</h4>
 
 ***AWS_LOCAL_PROFILE*** for your recently created aws profile name.
 

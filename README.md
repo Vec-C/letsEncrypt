@@ -23,7 +23,7 @@ Add the following environment variables to the lambda:
 INSTANCE: ***i-xxxxx*** (recently launched instance ID).\
 PORT:     5000
 
-</h3>ONCE THE INSTANCE IS RUNNING...</h3>
+<h3>ONCE THE INSTANCE IS RUNNING...</h3>
 
 Create a new ssh connection to the instance.
 
@@ -35,7 +35,7 @@ Go to /home/ec2-user/letsEncrypt:
 
   cd /home/ec2-user/letsEncrypt.
 
-</h4>Edit the docker-compose.yml file:</h4>
+<h4>Edit the docker-compose.yml file:</h4>
 
 ***AWS_LOCAL_PROFILE*** for your recently created aws profile name.
 

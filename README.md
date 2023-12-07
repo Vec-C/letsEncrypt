@@ -29,11 +29,11 @@ Create a new ssh connection to the instance.
 
 Configure a new aws profile with the following command:
 
-  sudo aws configure --profile ***PROFILE***.
+> sudo aws configure --profile ***PROFILE***.
 
 Go to /home/ec2-user/letsEncrypt:
 
-  cd /home/ec2-user/letsEncrypt.
+> cd /home/ec2-user/letsEncrypt.
 
 <h4>Edit the docker-compose.yml file:</h4>
 

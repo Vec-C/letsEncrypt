@@ -35,12 +35,14 @@ Go to /home/ec2-user/letsEncrypt:
 
 > cd /home/ec2-user/letsEncrypt.
 
-<h4>Edit the docker-compose.yml file:</h4>
+Edit the docker-compose.yml file:
 
 ***AWS_LOCAL_PROFILE*** for your recently created aws profile name.
 
 ***WEBHOOK*** for your API Gateway url including the method. (http://xxxx....aws.../reimport).
 
-***EMAIL*** for the email linked to the certificate.
+***EMAIL*** for the email that you want to be linked to the certificate.
+
+<h4>Stop your instance and don't be bothered about this again</h4>
 
 

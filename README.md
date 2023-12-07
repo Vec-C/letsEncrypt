@@ -27,7 +27,7 @@ Add the following environment variables to the lambda:
 
 Create a new ssh connection to the instance.
 
-Configure a new aws profile with the following command (Owner with full rigths to ACM and EC2):
+Configure a new aws profile with the following command (Owner with ACM and EC2 rigths):
 
 > sudo aws configure --profile ***PROFILE***.
 

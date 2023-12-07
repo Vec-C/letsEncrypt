@@ -8,7 +8,7 @@
 
 > Create a new Lambda function with the code inside de lambda_function.py file.
 
-> Inside the function code replace ***BUCKET*** with your bucket name.
+> Inside the function code replace ***BUCKET_NAME*** with your bucket name.
 
 > Create a new GET method "/reimport" inside a new API Gateway and link the lambda function as a proxy integration backend.
 

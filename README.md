@@ -31,9 +31,9 @@ Configure a new aws profile with the following command (Owner with ACM and EC2 r
 
 > sudo aws configure --profile ***PROFILE***.
 
-Go to /home/ec2-user/letsEncrypt:
+Go to /letsEncrypt:
 
-> cd /home/ec2-user/letsEncrypt.
+> cd /letsEncrypt.
 
 Edit the docker-compose.yml file:
 
